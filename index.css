@@ -1,0 +1,42 @@
+.pa{
+    width: 100%;
+    background-color : black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 20px;
+}
+.one{
+    background-color: aqua;
+    grid-row: span 3;
+
+}
+.two{
+    background-color: blue;
+    grid-column: span 2;
+
+}
+.three{
+    background-color: blueviolet;
+
+}
+.four{
+    background-color: brown;
+
+}
+.five{
+    background-color: chartreuse;
+
+}
+.six{
+    background-color: chocolate;
+    grid-row: span 2;
+
+}
+.seven{
+    background-color:salmon;
+
+}
+.eight{
+    background-color: yellow;
+}
